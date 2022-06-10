@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,11 @@
   "homepage": "https://github.com/purplemm/GraphQL-movieAPI#readme",
   "dependencies": {
     "apollo-server": "^3.8.2",
-    "graphql": "^16.5.0"
+    "graphql": "^16.5.0",
+    "node-fetch": "^3.2.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "type": "module"
 }
